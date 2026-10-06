@@ -1,0 +1,20 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "Headless Minesweeper Engine in TypeScript",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["typescript", "minesweeper", "game-engine", "cli"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
